@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthMate | Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+<nav class="navbar">
+    <div class="logo">HealthMate</div>
+    <ul class="nav-links">
+    <li><a href="index.html">Check Symptoms</a></li>
+    <li><a href="results.html" class="active">Results</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><button id="themeToggle" class="toggle-btn">🌙</button></li>
+</ul>
+
+</nav>
+
+<main class="page fade-in">
+    <section class="card">
+        <h1>Your Health Suggestions</h1>
+<div id="skeleton" class="skeleton-wrapper">
+    <div class="skeleton title"></div>
+    <div class="skeleton line"></div>
+    <div class="skeleton line"></div>
+    <div class="skeleton line short"></div>
+</div>
+
+<div id="results"></div>
+        <p class="warning">
+            ⚠️ If symptoms persist or worsen, consult a medical professional.
+        </p>
+        <div class="user-info">
+    <input type="text" id="userName" placeholder="Name">
+    <input type="number" id="userAge" placeholder="Age">
+    <select id="userGender">
+        <option value="">Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+    </select>
+
+    <button id="downloadPdf" class="primary-btn">Download PDF</button>
+</div>
+</section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js">
+
+</script>
+<script src="app.js"></script>
+<div class="feedback-fab" id="feedbackFab">💬</div>
+
+<div class="feedback-panel" id="feedbackPanel">
+    <h4>Quick Feedback</h4>
+
+    <textarea
+        id="feedbackText"
+        placeholder="Your thoughts..."
+        rows="3"
+    ></textarea>
+
+    <button
+        id="sendFeedback"
+        class="primary-btn small"
+    >
+        Send
+    </button>
+</div>
+
+
+</body>
+</html>

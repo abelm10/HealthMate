@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthMate | About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="intro" class="intro-screen">
+    <h1>HealthMate</h1>
+</div>
+
+<nav class="navbar">
+    <div class="logo">HealthMate</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Check Symptoms</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><button id="themeToggle" class="toggle-btn">🌙</button></li>
+    </ul>
+</nav>
+
+<main class="page fade-in">
+    <section class="card">
+        <h1>About HealthMate</h1>
+
+        <p>
+            by Abel Mathews, HealthMate is a smart, rule-based health awareness web application
+            designed to provide early guidance based on common symptoms.
+        </p>
+
+        <p>
+            The system does not diagnose diseases or prescribe medication.
+        </p>
+
+        <p>
+            This project demonstrates frontend–backend integration, 
+            all kinds of reviews are welcome, let me know how i can improve this better
+        </p>
+
+        <p class="warning">
+            ⚠️ Always consult a qualified medical professional for serious or persistent symptoms.
+        </p>
+    </section>
+</main>
+
+<script src="app.js"></script>
+<div class="feedback-fab" id="feedbackFab">💬</div>
+<div class="feedback-panel" id="feedbackPanel">
+    <h4>Quick Feedback</h4>
+
+    <textarea
+        id="feedbackText"
+        placeholder="Your thoughts..."
+        rows="3"
+    ></textarea>
+
+    <button
+        id="sendFeedback"
+        class="primary-btn small"
+    >
+        Send
+    </button>
+</div>
+
+</body>
+</html>

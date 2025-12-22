@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HealthMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro" class="intro-screen">
+    <h1>HealthMate</h1>
+</div>
+
+
+<nav class="navbar">
+    <div class="nav-spacer"></div>
+
+    <div class="logo logo-animate">HealthMate</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html" class="active">Check Symptoms</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><button id="themeToggle" class="toggle-btn">🌙</button></li>
+    </ul>
+</nav>
+
+
+<main class="page fade-in">
+    <section class="card">
+        <h1>How are you feeling today?</h1>
+        <p class="subtitle">
+            Select the symptoms you’re experiencing to get basic health guidance.
+        </p>
+
+        <form id="symptomForm" class="symptom-grid">
+            <label><input type="checkbox" value="fever"> Fever</label>
+            <label><input type="checkbox" value="cough"> Cough</label>
+            <label><input type="checkbox" value="headache"> Headache</label>
+            <label><input type="checkbox" value="sore_throat"> Sore Throat</label>
+            <label><input type="checkbox" value="fatigue"> Fatigue</label>
+
+            <button type="submit" class="primary-btn">
+                Get Suggestions →
+            </button>
+        </form>
+    </section>
+</main>
+
+<script src="app.js"></script>
+<div class="feedback-fab" id="feedbackFab">💬</div>
+
+<div class="feedback-panel" id="feedbackPanel">
+    <h4>We’d love your feedback</h4>
+    <textarea id="feedbackText" placeholder="What can we improve?" rows="4"></textarea>
+    <button class="primary-btn small" id="sendFeedback">Send</button>
+</div>
+
+
+</body>
+</html>
