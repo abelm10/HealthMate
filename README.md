@@ -40,22 +40,8 @@ Data
 
 JSON-based symptom → condition → remedy mapping
 
-📁 Project Structure
-HealthMate/
-│
-├── backend/
-│   ├── app.py
-│   └── data/
-│       └── health_data.json
-│
-├── frontend/
-│   ├── index.html
-│   ├── results.html
-│   ├── about.html
-│   ├── style.css
-│   └── app.js
-│
-└── README.md
+<img width="323" height="474" alt="image" src="https://github.com/user-attachments/assets/261f8efc-2591-497f-a680-a94c6fa874cb" />
+
 
 🚀 How It Works
 
