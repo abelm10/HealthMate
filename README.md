@@ -1,79 +1,62 @@
-# 🩺 HealthMate
+#HealthMate
 
-HealthMate is a smart, rule-based health awareness web application that helps users understand possible conditions and basic home remedies based on selected symptoms.
-It is designed only for health awareness and early guidance and does not replace professional medical advice.
+HealthMate is a simple health awareness web application where users can select their symptoms and get possible conditions along with basic home remedies and recommendations.
+
+The project uses a rule-based system to match the symptoms entered by the user with predefined conditions. It is mainly built for health awareness and basic guidance, and is not meant to replace a doctor or professional medical advice.
 
 ✨ Features
-
-Symptom-based suggestions using a rule-based logic system
-🧾 Clear health recommendations & home remedies
-
-🌗 Light / Dark mode toggle
-
-⏳ Animated loading skeleton for better UX
-
-📄 Downloadable PDF health report
-
-Floating feedback widget (UI-ready)
-
-Calming pastel teal UI with smooth animations
-
-Responsive and portfolio-friendly design
-
-🛠️ Tech Stack
-Frontend
-
-HTML5
-
-CSS3 (custom animations & themes)
-
-JavaScript (Vanilla JS)
-
-Backend
-
-Python
-
-Flask (REST API)
-
-Data
-
-JSON-based symptom → condition → remedy mapping
+Select symptoms and get possible condition suggestions
+Basic home remedies and health recommendations
+Light and dark mode
+Loading animation while results are being processed
+Download results as a PDF report
+Feedback button
+Responsive UI
+Simple pastel teal theme with animations
 
 <img width="323" height="474" alt="image" src="https://github.com/user-attachments/assets/261f8efc-2591-497f-a680-a94c6fa874cb" />
 
+🛠️ Tech Used
+Frontend
+HTML
+CSS
+JavaScript
+Backend
+Python
+Flask
+Data
+JSON files containing the symptom, condition and remedy mappings
+🔄 How It Works
 
-🚀 How It Works
+The basic flow of the application is:
 
-User selects symptoms on the home page
-
-Selected symptoms are stored locally
-
-Frontend sends symptoms to Flask backend
-
-Backend matches symptoms using rule-based logic
-
-Results are displayed on a separate page
-
-User can download a personalized PDF report
-
-▶️ How to Run Locally
-1️⃣ Clone the repository
-git clone https://github.com/your-username/healthmate.git
-cd healthmate
-
-2️⃣ Start the backend
+The user selects their symptoms.
+The selected symptoms are stored on the frontend.
+The frontend sends the symptoms to the Flask backend.
+The backend checks them against the predefined rules.
+Possible conditions and recommendations are returned.
+The results are displayed on the results page.
+The user can download the results as a PDF.
+🚀 Running the Project
+1. Clone the repository
+git clone https://github.com/abelm10/HealthMate.git
+cd HealthMate
+2. Run the backend
 cd backend
 python app.py
 
-
-The backend runs at:
+The Flask server should start at:
 
 http://127.0.0.1:5000
+3. Open the frontend
 
-3️⃣ Open the frontend
+Open the frontend/index.html file using either:
 
-Open frontend/index.html using:
+VS Code Live Server
+A web browser directly
 
-VS Code Live Server or
+Make sure the Flask backend is running when using the symptom checker.
 
-Directly in your browser
+⚠️ Note
+
+HealthMate is a health awareness project, not a medical diagnosis tool. The results are generated using predefined rules and should not be treated as professional medical advice.
