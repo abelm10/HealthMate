@@ -14,11 +14,11 @@ Symptom-based suggestions using a rule-based logic system
 
 📄 Downloadable PDF health report
 
-💬 Floating feedback widget (UI-ready)
+Floating feedback widget (UI-ready)
 
-🎨 Calming pastel teal UI with smooth animations
+Calming pastel teal UI with smooth animations
 
-📱 Responsive and portfolio-friendly design
+Responsive and portfolio-friendly design
 
 🛠️ Tech Stack
 Frontend
