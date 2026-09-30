@@ -5,8 +5,7 @@ It is designed only for health awareness and early guidance and does not replace
 
 ✨ Features
 
-🧠 Symptom-based suggestions using a rule-based logic system
-
+Symptom-based suggestions using a rule-based logic system
 🧾 Clear health recommendations & home remedies
 
 🌗 Light / Dark mode toggle
